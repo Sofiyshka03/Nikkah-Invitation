@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Счётчик обратного отсчёта
-    const weddingDate = new Date('April 3, 2025 12:30:00').getTime();
+    const weddingDate = new Date('April 3, 2025 12:00:00').getTime();
     const timer = setInterval(() => {
         const now = new Date().getTime();
         const distance = weddingDate - now;
